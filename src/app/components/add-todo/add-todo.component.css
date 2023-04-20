@@ -1,0 +1,39 @@
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+#todo{
+  width: 40vw;
+  padding: 20px;
+  height: 5vh;
+  border-radius:5vh;
+  font-family: Arial;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+}
+.todoText{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#todo:focus{
+  border: 3px solid #CF6EFF;
+  padding: 17px;
+}
+#doneLabel{
+  font-family: Arial;
+  font-size: 1.2em;
+}
+#done{
+  width: 2vh;
+  height: 2vh;
+}
+.button{
+  
+}
+.button:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+ul{
+  display: flex;
+  justify-content: end;
+
+  list-style: none;
+}
+.aboutmy, .plus{
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  width: 10vw;
+  height: 5vh;
+  font-size: 40px;
+  top: 5vh;
+  margin: 0;
+  transition: color 1s;
+}
+.aboutmy:hover, .plus:hover {
+  cursor: pointer;
+  color: #DDD;
+}

@@ -1,0 +1,3 @@
+<app-header (addTodo)="addTodo()" [todo]="todo"></app-header>
+<app-add-todo *ngIf="showAddTodo" (submit)="submitAddTodo($event)"></app-add-todo>
+<app-main [todos]="todos" (removeTodo)="removeTodo($event)"></app-main>

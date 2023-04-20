@@ -1,0 +1,34 @@
+.completed{
+  text-decoration: line-through;
+}
+.remove{
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  border: darkred;
+  color: white;
+  background: #CF6EFF;
+  font-size: 1.2em;
+  font-family: Arial;
+  transition: background-color 0.5s;
+  transition: color 0.5ms;
+}
+.container{
+  background: white;
+  width: 40vw;
+  padding: 20px;
+  align-items: center;
+  border-radius: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.todoText{
+  font-size: 1.2em;
+  font-family: Arial;
+}
+.remove:hover{
+  background: white;
+  color: #CF6EFF;
+  cursor: pointer;
+}
