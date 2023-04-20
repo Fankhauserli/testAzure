@@ -1,0 +1,10 @@
+h1{
+  font-size: 5em;
+  font-family: Arial;
+  color: white;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

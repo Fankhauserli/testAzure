@@ -1,0 +1,3 @@
+<div class="container">
+  <app-todos *ngFor="let todo of todos" [todo]="todo" (removeTodo)="removeTodofunc($event)"></app-todos>
+</div>

@@ -1,0 +1,4 @@
+<div class="container">
+  <p class="todoText" [ngClass]="todo.completed ? 'completed' : ''" (click)="complete()">{{todo.title}}</p>
+  <button (click)="remove()" class="remove">Remove</button>
+</div>

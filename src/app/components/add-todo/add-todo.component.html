@@ -1,0 +1,15 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+  <div class="todoText">
+    <input id="todo" type="text" formControlName="name" placeholder="Todo..." required [(ngModel)]="itemName">
+    <label *ngIf="itemName.length===0">Todo is Required</label>
+  </div>
+
+  <div>
+    <label for="done" id="doneLabel">
+      Finished
+    </label>
+    <input id="done" type="checkbox" formControlName="done">
+  </div>
+  <input class="button" type="submit" name="Add Todo" *ngIf="itemName.length!==0">
+</form>
